@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link type="text/css" href="css/music_css.css" rel="stylesheet"/>
+		<link rel='stylesheet' href='css/email.css'>
+		<link href="css/font-awesome.min.css" rel="stylesheet">
+		<link href="layui/css/layui.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<audio id="music" src="music/ゴンチチ - 1967.mp3"></audio>
+		<div class="color-div">
+		<div class="music-box layui-anim layui-anim-up"> <!--主体盒子-->
+			<div class="left-box"> 
+				<header class="header-box"><img src="img/panda.png" class="eng-box"/><font>音乐</font></header>
+				<div class="play-box">
+					<div class="singer-box">
+						<div class="singer-header"><b>歌手介绍</b></div>
+						<div class="touxiang layui-anim layui-anim-rotate layui-anim-loop" ><img src="img/touxiang.jpg" class="touxiang-box"/></div>
+						<div class="name-box">作者：Panda ></div>
+						<div class="cd-box">专辑：Pd音乐 ></div>
+					</div>
+					<div class="lyric-box"><p>
+						<br /><span>别看我只是一只熊猫</span><br /><br />
+						<span>作词：Panda</span><br /><br />
+						<span>作曲：Panda</span><br /><br />
+						<span>别看我只是一只熊猫</span><br /><br />
+						<span>熊猫的充满难以想象</span><br /><br />
+						<span>天在高心情一样奔放</span><br /><br />
+						<span>每天都追感太阳</span><br /><br /></p>
+					</div>
+					<div class="layui-progress line">
+  						<div class="layui-progress-bar layui-bg-cyan" lay-percent="0%"></div>
+					</div>
+					<div id="slideTest1" class="demo-slider huakuai"></div>
+					<div class="layui-progress line">
+  						<div class="layui-progress-bar layui-bg-cyan" lay-percent="0%"></div>
+					</div>
+					<div class="icon-box">
+						<div><i id="heart" class="layui-icon layui-icon-heart like-icon" style="font-size: 40px;"></i></div>
+						<div><i class="fa fa-backward" aria-hidden="true" style="font-size:40px;"></i></div>
+						<div><i id="play" class="fa fa-play-circle " aria-hidden="true" style="font-size: 70px;margin-top:8px;"></i></div>
+						<div><i class="fa fa-forward" aria-hidden="true" style="font-size:40px;"></i></div>
+						<div><i class="layui-icon layui-icon-spread-left" style="font-size:40px;"></i></div>	
+					</div>
+					<div class="xiaofei">
+						<div class="tuijian">
+							<header>猜你喜欢</header>
+							<ul>
+								<li>我是谁 ></li>
+								<li>我是熊猫 ></li>
+								<li>你是谁 ></li>
+								<li>我是你的主人 ></li>
+							</ul>
+						</div>
+						<div class="paihang">
+							<header>最新排行</header>
+							<ul>
+								<li>你叫什么 ></li>
+								<li>我叫熊猫 ></li>
+								<li>你在干嘛呀 ></li>
+								<li>我在听歌 ></li>
+							</ul>
+						</div>
+						<div class="mininav">
+								<ul>
+									<li><a href="#">喜 欢</a></li>
+									<li><a href="#">下 载</a></li>
+									<li><a href="#">会 员</a></li>
+									<li><a href="#">设 置</a></li>
+									<li><a href="#">社 区</a></li>
+									<li><a href="#">更 多</a></li>
+								</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="list-box">
+			    <div class="menu">
+			        <header class="menu_header">
+			            <h1 class="menu_header-title">音乐列表</h1>
+			        </header>
+			        <nav class="menu_body">
+			            <ul class="nav">
+			                <li class="nav_item"><a href="#" class="nav_item-link is-active">
+			                	<i class="fa fa-play nav_item-icon"></i>
+			                    <span class="nav_item-text">测试1967</span>
+			                    <span class="badge badge-warning">3：14</span> </a></li>
+			                <li class="nav_item"><a href="#" class="nav_item-link">
+			                	<i class="fa fa-play nav_item-icon"></i>
+			                	<span class="nav_item-text">玫瑰</span> 
+			                	<span class="badge">4：14</span></a></li>
+			                <li class="nav_item"><a href="#" class="nav_item-link">
+			                	<i class="fa fa-play nav_item-icon"></i>
+			                	<span class="nav_item-text">城南花已开</span>
+			                	<span class="badge">2：14</span></a></li>
+			                <li class="nav_item"><a href="#" class="nav_item-link">
+			                	<i class="fa fa-play nav_item-icon"></i>
+			                	<span class="nav_item-text">夏夜</span> 
+			                	<span class="badge">3：14</span></a></li>
+			                <li class="nav_item"><a href="#" class="nav_item-link">
+			                	<i class="fa fa-play nav_item-icon"></i>
+			                	<span class="nav_item-text">1945</span> 
+			                	<span class="badge">3：14</span></a></li>
+			                <li class="nav_item"><a href="#" class="nav_item-link">
+			                	<i class="fa fa-play nav_item-icon"></i>
+			                	<span class="nav_item-text">如烟如风</span> 
+			                	<span class="badge">3：14</span></a></li>
+			                <li class="nav_item"><a href="#" class="nav_item-link">
+			                	<i class="fa fa-play nav_item-icon"></i>
+			                	<span class="nav_item-text">夢樱</span> 
+			                	<span class="badge">3：14</span></a></li>
+			                <li class="nav_item"><a href="#" class="nav_item-link">
+			                	<i class="fa fa-play nav_item-icon"></i>
+			                	<span class="nav_item-text">淋漓</span> 
+			                	<span class="badge">3：14</span></a></li>
+			                <li class="nav_item"><a href="#" class="nav_item-link">
+			                	<i class="fa fa-play nav_item-icon"></i>
+			                	<span class="nav_item-text">彼方</span> 
+			                	<span class="badge">3：14</span></a></li>
+			                <li class="nav_item"><a href="#" class="nav_item-link">
+			                	<i class="fa fa-play nav_item-icon"></i>
+			                	<span class="nav_item-text">夜明</span> 
+			                	<span class="badge">3：14</span></a></li>
+			                <li class="nav_item"><a href="#" class="nav_item-link">
+			                	<i class="fa fa-play nav_item-icon"></i>
+			                	<span class="nav_item-text">最初</span> 
+			                	<span class="badge">3：14</span></a></li>
+			                <li class="nav_item"><a href="#" class="nav_item-link">
+			                	<i class="fa fa-play nav_item-icon"></i>
+			                	<span class="nav_item-text">奇迹の山</span> 
+			                	<span class="badge">3：14</span></a></li>
+			            </ul>
+			        </nav>
+			    </div>
+			</div>
+			<div class="panda-box my-skin">
+				<a href="#" onmouseover="show()" onmouseout="move()"><img src="img/panda.gif" width="160px"/></a>
+			</div>
+				<div id="paopao" class="unbubble">
+					点击我获取无损音质噢
+					<div class="cac_bg"></div>
+					<div class="cac_bder"></div>
+				</div>
+		</div>
+		<footer></footer>			
+		</div>
+		<script src="layui/layui.js"></script>
+		<script>
+			
+			function $(id){
+				return document.getElementById(id);
+			}
+			
+			function show(){
+				$("paopao").className="bubble-box";
+			}
+			function move(){
+				$("paopao").className="unbubble";
+			}
+			function setTime(){
+				$("music").currentTime=$("slideTest1").value;
+			}
+			layui.use(['element','slider','layer'], function(){
+				var element = layui.element;
+				var $ = layui.$
+ 					 ,slider = layui.slider;
+  							slider.render({
+   						elem: '#slideTest1',
+   						min:1,
+   						max:144,
+   						setTips:function(value){
+   							return value+"s";}		
+						});
+						
+  				var layer = layui.layer;
+  				function panda(){
+  					layer.open({
+  						title: '提示QAQ'
+  						,content: '请先开通VIP！'
+  						,skin:'my-skin'});
+  					}
+  				$(".panda-box").on('click',panda); 
+			});
+			window.onload = function(){
+				$("heart").onclick = function(){
+					if($("heart").className !="layui-icon layui-icon-heart-fill like-icon")
+					$("heart").className ="layui-icon layui-icon-heart-fill like-icon";
+					else
+					$("heart").className ="layui-icon layui-icon-heart like-icon";
+				}
+				$("play").onclick=function(){
+					if($("play").className!="fa fa-pause-circle")
+					{$("play").className="fa fa-pause-circle";
+					$("music").play();}
+					else{
+					$("play").className="fa fa-play-circle";
+					$("music").pause();}
+				}
+			}
+		</script>
+	</body>
+</html>

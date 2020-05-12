@@ -1,0 +1,297 @@
+html,body
+{
+	background-color:#CCCCCC;
+}
+.color-div
+{
+	background-color:#CCCCCC;
+}
+.music-box
+{
+	margin:0px auto;
+	margin-top:100px;
+	height: 600px;
+	width:600px;
+	background-color:black;
+	position: relative;
+	background-color:#CCCCCC;
+}
+.left-box
+{
+	float: left;
+	width:400px;
+	background-color:#333333;
+	height:620px;
+	border-radius:10px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+.header-box
+{
+	color:white;
+	letter-spacing: 20px;
+	line-height: 70px;
+	height:70px;
+	width:400px;
+	position: relative;
+}
+.header-box font
+{
+	float: right;
+	font:bolder 38px "幼圆";
+	margin-right:40px;
+	margin-top:18px;
+}
+.play-box
+{
+	background-color:#fff;
+	height:500px;
+	width:400px;
+	margin-top:12px;
+	font-family: "微软雅黑";
+	overflow: hidden;
+	border-bottom:2px solid #333333;
+}
+.list-box
+{
+	float: right;
+	width:200px;
+	height: 530px;
+	background-color: blue;
+	margin-top:70px;
+	background-color:#CCCCCC;
+}
+.panda-box
+{
+	position: absolute;
+	bottom:50px;
+	left: -160px;
+	transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+}
+.eng-box
+{
+	width:170px;
+	position: absolute;
+	left:50px;
+	top:15px;
+}
+.singer-box{
+	float: left;
+	background-color:#333333;
+	width:150px;
+	height:180px;
+	text-align: center;
+}
+.singer-header
+{
+	text-align: center;
+	height:35px;
+	float: left;
+	line-height: 35px;
+	width: 150px;
+	background-color:#F0F0F0;
+}
+.touxiang
+{
+	margin-top:40px;
+	margin-left:29px ;
+	width:90px;
+	height:90px;
+	border-radius: 50%;
+	border:2px solid #333333;
+}
+.touxiang-box
+{
+	width:90px;
+	height:90px;
+	border-radius: 50%;
+	box-shadow:1px 1px 2px rgba(10, 0, 0, 0.5);
+}
+.name-box{
+	color:#F0F0F0;
+}
+.cd-box
+{
+	color: #F0F0F0;
+}
+.lyric-box
+{
+	float:left;
+    width:250px;
+    height:180px;
+    font-size:12px;    
+    z-index: 5;
+    color: black;
+    text-align: center;
+    overflow:hidden;
+    background:linear-gradient(#F0F0F0,#999999);
+}
+.lyric-box p
+{
+	color:#333;
+}
+
+.line
+{
+	width:400px;
+	height:30px;
+	float: left;
+}
+.huakuai
+{
+	float: left;
+	height:4px;
+	width: 400px;
+}
+.icon-box
+{
+	height: 90px;
+	width:400px;
+}
+.icon-box i
+{
+	float: left;
+	margin:20px 18px;
+}
+.icon-box i[2]
+{
+	float: left;
+}
+.like-icon
+{
+	color: red;
+}
+.xiaofei
+{
+	height:200px;
+	width: 400px;
+	float: left;
+}
+.tuijian
+{
+	border-radius:20px;
+	border:3px solid #F0F0F0;
+	width:140px;
+	height:180px;
+	text-align: center;
+	margin-left:15px;
+	float: left;
+	overflow: hidden;
+}
+.tuijian header
+{
+	height:25px;
+	background-color:#333333;
+	color:white;
+	line-height:25px;
+}
+.tuijian ul li
+{
+	width:140px;
+	height:35px;
+	line-height:35px;
+	border-top:2px solid #F0F0F0;
+}
+.paihang
+{
+	border-radius:20px;
+	float: left;
+	border:3px solid #F0F0F0;
+	width:140px;
+	height:180px;
+	text-align: center;
+	margin-left:15px;
+	overflow: hidden;
+}
+.paihang header
+{
+	height:25px;
+	background-color:#333333;
+	color:white;
+	line-height:25px;
+}
+.paihang ul li
+{
+	width:140px;
+	height:35px;
+	line-height:35px;
+	border-top:2px solid #F0F0F0;
+}
+.mininav
+{
+	float: right;
+	border-radius:20px;
+	border:3px solid #333333;
+	width:60px;
+	margin-top:-18px;
+	margin-right:-15px;
+	height:210px;
+	text-align: center;
+	margin-left:15px;
+	overflow: hidden;
+	background-color:#009688;
+}
+.mininav ul li
+{
+	margin-left:0px;
+	width:60px;
+	height:33px;
+	line-height:33px;
+	border-top:2px solid #333333;
+}
+.mininav ul li a 
+{
+	color:white;
+	margin-left:-9px;
+}
+.mininav ul li:first-child
+{
+	border-top:0px;
+}
+.bubble-box
+{
+	position:absolute;
+    width:160px;
+    height:60px;
+    line-height:60px;
+    background:#009688;
+    border-radius:20px;
+    border:3px solid #333333;
+    top:320px;
+    left:-200px;
+    color:white;
+    text-align: center;
+    display: block;
+}
+.unbubble
+{
+	display:none;
+}
+.cac_bder{
+    width:0px;
+    border-top:35px solid #333333;
+    border-left:30px solid transparent;
+    border-right:30px solid transparent;
+    position:absolute;
+    bottom:-15px;
+    left:85px;
+    z-index:-2;
+	display: block;
+
+    }
+.cac_bg{
+    width:0;
+    border-top:32px solid #009688;
+    border-left:27px solid transparent;
+    border-right:27px solid transparent;
+    position:absolute;
+    bottom:-14px;
+    left:85px;
+    z-index:1;
+	display: block;
+    }
+.my-skin .layui-layer-btn a{
+	background-color:#009688;
+	border:2px solid #333333;
+	border-radius:10px;
+}
